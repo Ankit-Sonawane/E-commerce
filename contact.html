@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Wrapper container -->
+<div class="container py-4">
+
+    <!-- Bootstrap 5 starter form -->
+    <form>
+  
+      <!-- Name input -->
+      <div class="mb-3">
+        <label class="form-label" for="name">Name</label>
+        <input type="text" id="name1" class="form-control">
+      </div>
+  
+      <!-- Email address input -->
+      <div class="mb-3">
+        <label class="form-label" for="emailAddress">Email Address</label>
+        <input class="form-control" for="" id="emailAddress1" type="email" placeholder="Email Address" required/>
+      </div>
+
+      <!-- Contact Number input -->
+      <div class="mb-3">
+        <label class="form-label" for="contactno">Contact No.</label>
+        <input class="form-control" id="mobile1" type="tel" pattern="[0-9]{10}" maxlength="10" placeholder="Enter mobile no." required/>
+      </div>
+
+  
+      <!-- Message input -->
+      <div class="mb-3">
+        <label class="form-label" for="message">Message</label>
+        <textarea class="form-control" id="message1" type="text" style="height: 10rem;" required></textarea>
+      </div>
+
+    <!-- Form submit button -->
+    <div class="d-grid">
+      <button class="btn btn-primary" id="submitButton" onclick ="sub();"type="submit">Submit</button>
+    </div>
+
+  </form>
+
+</div>
+
+
+
+<footer class="bg-dark py-3 mt-3">
+  <div class="container">
+    <div class="row text-white g-4">
+
+      <div class="col-md-6 col-lg-3">
+        <a class="text-uppercase text-decoration-none brand text-white" href="index.html">Attire</a>
+        <p class="text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+          mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+      </div>
+
+
+<div class="col-md-6 col-lg-3">
+  <h5 class="fw-light mb-3">Contact Us</h5>
+  <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+    <span class="me-3">
+      <i class="fas fa-map-marked-alt"></i>
+    </span>
+    <span class="fw-light">
+      Albert Street, New York, AS 756, United States of America
+    </span>
+  </div>
+  <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+    <span class="me-3">
+      <i class="fas fa-envelope"></i>
+    </span>
+    <span class="fw-light">
+      attire.support@gmail.com
+    </span>
+  </div>
+  <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+    <span class="me-3">
+      <i class="fas fa-phone-alt"></i>
+    </span>
+    <span class="fw-light">
+      +9786 6776 236
+    </span>
+  </div>
+</div>
+
+<div class="col-md-6 col-lg-3">
+  <h5 class="fw-light mb-3">Follow Us</h5>
+  <div>
+    <ul class="list-unstyled d-flex">
+      <li>
+        <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+    </div>
+  </div>
+</footer>
+  <script src="js/contactscript.js"></script>
+</body>
+</html>
+
